@@ -12,11 +12,12 @@ ln -sf "$REPO/claude/settings.json" ~/.claude/settings.json
 echo "  [Claude Code] CLAUDE.md / settings.json -> ~/.claude/"
 
 # --- Cursor ---
+# rules は claude/CLAUDE.md を直接参照（内容を共有するため）
 mkdir -p ~/.cursor
 mkdir -p "$HOME/Library/Application Support/Cursor/User"
-ln -sf "$REPO/cursor/rules"         ~/.cursor/rules
+ln -sf "$REPO/claude/CLAUDE.md"     ~/.cursor/rules
 ln -sf "$REPO/cursor/settings.json" "$HOME/Library/Application Support/Cursor/User/settings.json"
-echo "  [Cursor]      rules / settings.json"
+echo "  [Cursor]      rules -> claude/CLAUDE.md / settings.json"
 
 # --- VS Code ---
 mkdir -p "$HOME/Library/Application Support/Code/User"
