@@ -7,21 +7,21 @@
   "editor.renderWhitespace": "boundary",
   "workbench.colorCustomizations": {
     "tab.activeBackground": "#7442AD",
-    "tab.activeForeground": "#D3D2D4",
+    "tab.activeForeground": "#D3D2D4"
   },
   "workbench.iconTheme": "material-icon-theme",
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[markdown]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": false
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
   "hediet.vscode-drawio.resizeImages": null,
   "editor.formatOnSave": true,
-  "claudeCode.preferredLocation": "panel",
+  "claudeCode.preferredLocation": "panel"
 }
